@@ -306,9 +306,6 @@ export default function About() {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-900">Prince Dr. Henry Uzor Okafor</h3>
                                 <p className="text-green-700 font-medium mt-1">Honourable Commissioner for Niger Delta Affairs and Intelligence</p>
-                                <p className="mt-4 text-gray-600">
-                                    Appointed in 2024, he leads security‑aware development in oil‑producing LGAs, strengthening partnerships with communities, security agencies, and development partners.
-                                </p>
                             </div>
                         </div>
 
@@ -326,9 +323,6 @@ export default function About() {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-900">Barr. Ibe Elieazah</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
-                                <p className="mt-4 text-gray-600">
-                                    Chief administrative officer responsible for daily operations, civil service management, and coordination across departments to deliver the ministry’s Niger Delta mandate.
-                                </p>
                             </div>
                         </div>
                     </div>
