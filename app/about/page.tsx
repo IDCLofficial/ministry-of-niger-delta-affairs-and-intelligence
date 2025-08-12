@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { 
-  FaRegEye, FaBullseye, FaEye, FaClipboardCheck, FaShieldHalved, FaUserTie, FaLightbulb, FaUsers,
-  FaBuilding, FaHandshake, FaRoad, FaTree, FaUserShield, FaFileContract, FaGraduationCap,
-  FaChartLine, FaBullhorn
+import {
+    FaRegEye, FaBullseye, FaEye, FaClipboardCheck, FaShieldHalved, FaUserTie, FaLightbulb, FaUsers,
+    FaBuilding, FaHandshake, FaRoad, FaTree, FaUserShield, FaFileContract, FaGraduationCap,
+    FaChartLine, FaBullhorn
 } from "react-icons/fa6";
 import HeroSection from "../../components/HeroSection";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
@@ -132,6 +132,37 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Commissioner Profile Section */}
+            <section className="py-12 sm:py-16 md:py-20 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+                        <div className="order-2 lg:order-1">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                                Prince Dr. Henry Uzor Okafor
+                            </h2>
+                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
+                                Honourable Commissioner for Niger Delta Affairs and Intelligence
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
+                                Appointed in 2024, Prince Dr. Henry Uzor Okafor brings rich experience from public administration and grassroots development. He has aligned the Ministry&apos;s operations with initiatives focused on environmental sustainability, youth empowerment, and regional security.
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
+                                Hailing from Oguta LGA, he is respected for diplomatic leadership and conflict resolution, especially in addressing oil spill remediation, community agitation, and resource management. His vision is to strengthen partnerships with communities, security agencies, and development partners for inclusive governance and peace in oil‑producing regions.
+                            </p>
+                        </div>
+                        <div className="order-1 lg:order-2">
+                            <Image
+                                src="/assets/no-image.png"
+                                alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
+                                width={500}
+                                height={600}
+                                className="rounded-lg shadow-lg w-full h-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Core Responsibilities Section */}
             <section className="py-12 sm:py-16 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
@@ -210,33 +241,42 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Commissioner Profile Section */}
-            <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+            {/* Strategic Goals Section */}
+            <section className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-                        <div className="order-2 lg:order-1">
-                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Prince Dr. Henry Uzor Okafor
-                            </h2>
-                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
-                                Honourable Commissioner for Niger Delta Affairs and Intelligence
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                                Appointed in 2024, Prince Dr. Henry Uzor Okafor brings rich experience from public administration and grassroots development. He has aligned the Ministry&apos;s operations with initiatives focused on environmental sustainability, youth empowerment, and regional security.
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                Hailing from Oguta LGA, he is respected for diplomatic leadership and conflict resolution, especially in addressing oil spill remediation, community agitation, and resource management. His vision is to strengthen partnerships with communities, security agencies, and development partners for inclusive governance and peace in oil‑producing regions.
-                            </p>
-                        </div>
-                        <div className="order-1 lg:order-2">
-                            <Image
-                                src="/assets/no-image.png"
-                                alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
-                                width={500}
-                                height={600}
-                                className="rounded-lg shadow-lg w-full h-auto"
-                            />
-                        </div>
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            Through these initiatives, the Ministry of Niger Delta Affairs and Intelligence is committed to sustainable development, peacebuilding, and empowerment in the oil-producing communities of Imo State.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {[
+                            "Promote Inclusive Development in Oil-Producing Areas through targeted interventions and community engagement.",
+                            "Enhance Security Through Intelligence-Led Collaboration with security agencies and local communities.",
+                            "Strengthen Community and Oil Company Relations for sustainable development and conflict prevention.",
+                            "Foster Youth and Women Empowerment through skills acquisition and entrepreneurship programs.",
+                            "Protect and Restore the Environment in areas affected by oil exploration and production.",
+                            "Increase Transparency and Public Engagement in all ministry activities and projects.",
+                            "Strengthen Institutional Capacity and Accountability for effective service delivery.",
+                            "Implement Data-Driven Decision Making through research and community intelligence.",
+                            "Facilitate Peacebuilding and Conflict Resolution in host communities.",
+                            "Promote Sustainable Infrastructure Development in the Niger Delta region."
+                        ].map((goal, index) => (
+                            <AnimatedEntrance
+                                key={index}
+                                {...ANIMATION_PRESETS.CARD_FADE_UP}
+                                delay={0.1 * index}
+                            >
+                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                                        <span className="text-green-600 font-semibold">{index + 1}</span>
+                                    </div>
+                                    <p className="text-gray-700">{goal}</p>
+                                </div>
+                            </AnimatedEntrance>
+                        ))}
                     </div>
                 </div>
             </section>

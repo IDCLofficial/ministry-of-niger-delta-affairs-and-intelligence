@@ -13,7 +13,7 @@ export const NAV_LINKS: NavLink[] = [
     label: "About Us"
   },
   {
-    href: "/departments",
+    href: "/department",
     label: "Departments & Agencies"
   },
   {

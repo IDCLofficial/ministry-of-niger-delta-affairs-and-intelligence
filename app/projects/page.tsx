@@ -164,46 +164,6 @@ export default function Projects() {
                     </div>
                 </div>
             </section>
-
-            {/* Strategic Goals Section */}
-            <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="text-center mb-10">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Through these initiatives, the Ministry of Niger Delta Affairs and Intelligence is committed to sustainable development, peacebuilding, and empowerment in the oil-producing communities of Imo State.
-                        </p>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {[
-                            "Promote Inclusive Development in Oil-Producing Areas through targeted interventions and community engagement.",
-                            "Enhance Security Through Intelligence-Led Collaboration with security agencies and local communities.",
-                            "Strengthen Community and Oil Company Relations for sustainable development and conflict prevention.",
-                            "Foster Youth and Women Empowerment through skills acquisition and entrepreneurship programs.",
-                            "Protect and Restore the Environment in areas affected by oil exploration and production.",
-                            "Increase Transparency and Public Engagement in all ministry activities and projects.",
-                            "Strengthen Institutional Capacity and Accountability for effective service delivery.",
-                            "Implement Data-Driven Decision Making through research and community intelligence.",
-                            "Facilitate Peacebuilding and Conflict Resolution in host communities.",
-                            "Promote Sustainable Infrastructure Development in the Niger Delta region."
-                        ].map((goal, index) => (
-                            <AnimatedEntrance 
-                                key={index} 
-                                {...ANIMATION_PRESETS.CARD_FADE_UP} 
-                                delay={0.1 * index}
-                            >
-                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
-                                        <span className="text-green-600 font-semibold">{index + 1}</span>
-                                    </div>
-                                    <p className="text-gray-700">{goal}</p>
-                                </div>
-                            </AnimatedEntrance>
-                        ))}
-                    </div>
-                </div>
-            </section>
         </div>
     );
 }
