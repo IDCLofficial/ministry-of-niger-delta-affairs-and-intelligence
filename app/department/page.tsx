@@ -1,25 +1,13 @@
-import AnimatedEntrance from "../../components/AnimatedEntrance";
-import { ANIMATION_PRESETS } from "../../utils/constants/animations";
 import TabContentSystem from "../components/TabContentSystem";
+import HeroSection from "../../components/HeroSection";
+import { HERO_CONFIGS } from "../../utils/constants/heroSections";
 
 export default function Department() {
     return (
         <div className="min-h-screen bg-white">
 
             {/* Hero Section */}
-            <AnimatedEntrance {...ANIMATION_PRESETS.SECTION_FADE_IN}>
-                <section className="relative bg-cover bg-center py-20 md:py-32" style={{ backgroundImage: 'url("/hero_section.png")' }}>
-                    <div className="absolute inset-0 bg-black/20"></div>
-                    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                        <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN}>
-                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                                Ministry of Niger Delta Affairs and Intelligence<br />
-                                Departments & Agencies
-                            </h1>
-                        </AnimatedEntrance>
-                    </div>
-                </section>
-            </AnimatedEntrance>
+            <HeroSection {...HERO_CONFIGS.DEPARTMENT} />
 
             {/* Main Content Section with Tab System */}
             <TabContentSystem 
@@ -30,7 +18,7 @@ export default function Department() {
                         label: "Administration & Human Resources",
                         content: {
                             title: "Department of Administration and Human Resources",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Department - Niger Delta Affairs and Intelligence.jpg",
                             imageAlt: "Department of Administration and Human Resources",
                             description: "Administration & Human Resources ensures smooth ministry operations and an effective civil service. The department manages recruitment, training, welfare, and performance management to build a capable workforce that delivers on the ministry’s Niger Delta mandate.",
                             additionalInfo: [
@@ -47,7 +35,7 @@ export default function Department() {
                         label: "Finance & Accounts",
                         content: {
                             title: "Department of Finance and Accounts",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Finance - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Department of Finance and Accounts",
                             description: "Finance & Accounts manages public funds with transparency and accountability. The department handles budgeting support, payments, cash management, and financial reporting for programmes and projects across oil‑producing communities.",
                             additionalInfo: [
@@ -64,7 +52,7 @@ export default function Department() {
                         label: "Planning, Research & Statistics",
                         content: {
                             title: "Department of Planning, Research, and Statistics",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Planning - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Department of Planning, Research, and Statistics",
                             description: "Planning, Research, and Statistics guides evidence‑based development using data and field intelligence. The department conducts studies, tracks KPIs, and aligns projects with state priorities and Niger Delta development goals.",
                             additionalInfo: [
@@ -81,7 +69,7 @@ export default function Department() {
                         label: "Community Development & Advocacy",
                         content: {
                             title: "Department of Community Development and Advocacy",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Community Development - Niger Delta Affairs and Intelligence.jpg",
                             imageAlt: "Department of Community Development and Advocacy",
                             description: "Community Development and Advocacy leads engagement with youths, women, and traditional institutions. The department advances empowerment programmes, inclusion, and grievance resolution to promote peace and stability in oil‑producing LGAs.",
                             additionalInfo: [
@@ -98,7 +86,7 @@ export default function Department() {
                         label: "Oil Companies & Stakeholder Relations",
                         content: {
                             title: "Department of Oil Companies and Stakeholder Relations",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Oil Companies - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Department of Oil Companies and Stakeholder Relations",
                             description: "Oil Companies and Stakeholder Relations safeguards host community interests and promotes fair benefits. The department interfaces with operators, regulators, and communities to ensure obligations are met and partnerships deliver local value.",
                             additionalInfo: [
@@ -115,7 +103,7 @@ export default function Department() {
                         label: "Infrastructure & Project Implementation",
                         content: {
                             title: "Department of Infrastructure and Project Implementation",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Infrastructure - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Department of Infrastructure and Project Implementation",
                             description: "Infrastructure and Project Implementation delivers roads, utilities, and community assets across the Niger Delta zones of Imo State. The department supervises contractors, enforces standards, and ensures timely, safe, and sustainable delivery.",
                             additionalInfo: [
@@ -132,7 +120,7 @@ export default function Department() {
                         label: "Environmental Protection & Restoration",
                         content: {
                             title: "Department of Environmental Protection and Restoration",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Environmental Protection - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Department of Environmental Protection and Restoration",
                             description: "Environmental Protection and Restoration addresses pollution, remediation, and climate resilience. The department collaborates with NOSDRA and Environment MDAs to prevent spills, restore ecosystems, and protect community health.",
                             additionalInfo: [
@@ -149,7 +137,7 @@ export default function Department() {
                         label: "Intelligence & Security Coordination",
                         content: {
                             title: "Department of Intelligence and Security Coordination",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Intelligence - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Department of Intelligence and Security Coordination",
                             description: "Intelligence and Security Coordination integrates community‑based intelligence into development and enforcement. The department works with the Navy, Police, DSS, and NSCDC to deter illegal bunkering, vandalism, and related threats.",
                             additionalInfo: [
@@ -166,7 +154,7 @@ export default function Department() {
                         label: "Legal & Compliance Unit",
                         content: {
                             title: "Legal and Compliance Unit",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Legal Compliance - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Legal and Compliance Unit",
                             description: "The Legal and Compliance Unit provides legal guidance and ensures adherence to statutes, regulations, and contracts. The unit drafts, reviews, and vets documents while supporting dispute resolution and institutional accountability.",
                             additionalInfo: [
@@ -183,7 +171,7 @@ export default function Department() {
                         label: "Public Relations & Media Unit",
                         content: {
                             title: "Public Relations and Media Unit",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/photos/Public Relations - Niger Delta Affairs and Intelligence.jpeg",
                             imageAlt: "Public Relations and Media Unit",
                             description: "Public Relations and Media manages strategic communications, feedback, and transparency. The unit shares project updates, coordinates media engagements, and ensures open channels with communities and partners.",
                             additionalInfo: [

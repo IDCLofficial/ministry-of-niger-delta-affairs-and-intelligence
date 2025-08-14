@@ -30,7 +30,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
               <Image
-                src="/assets/no-image.png"
+                src="/photos/Photo - Niger Delta Affairs and Intelligence.jpg"
                 alt="Ministry of Niger Delta Affairs and Intelligence – Overview"
                 width={600}
                 height={400}
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="flex-1 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
                   <Image
-                    src="/assets/no-image.png"
+                    src="/photos/Dr. Henry Uzor Okafor - Niger Delta Affairs and Intelligence.jpg"
                     alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
                     width={500}
                     height={600}
@@ -204,11 +204,11 @@ export default function Home() {
             </p>
           </AnimatedEntrance>
           <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
-            {[{ name: 'NDDC', logo: '/assets/no-image.png' },
-              { name: 'ISOPADEC', logo: '/assets/no-image.png' },
-              { name: 'NOSDRA', logo: '/assets/no-image.png' },
-              { name: 'NUPRC', logo: '/assets/no-image.png' },
-              { name: 'NCDMB', logo: '/assets/no-image.png' },
+            {[{ name: 'NDDC', logo: '/photos/nddc-logo.png' },
+              { name: 'ISOPADEC', logo: '/photos/isopadec-logo.png' },
+              { name: 'NOSDRA', logo: '/photos/nosdra-logo.png' },
+              { name: 'NUPRC', logo: '/photos/nuprc-logo.png' },
+              { name: 'NCDMB', logo: '/photos/ncdmb-logo.png' },
             ].map((partner, index) => (
               <AnimatedEntrance
                 key={partner.name}
@@ -224,7 +224,7 @@ export default function Home() {
                       width={100}
                       title={`Partner ${partner.name}`}
                       height={60}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-auto object-contain aspect-[2/1]"
                     />
                   </div>
                 </div>

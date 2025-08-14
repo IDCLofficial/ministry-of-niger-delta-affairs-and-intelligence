@@ -18,6 +18,12 @@ export const HERO_CONFIGS = {
     height: 'extra-large' as const,
     alignment: 'left' as const
   },
+
+  DEPARTMENT: {
+    title: "Ministry of Niger Delta Affairs and Intelligence Departments & Agencies",
+    height: 'medium' as const,
+    alignment: 'left' as const
+  },
   
   PROJECTS: {
     title: "Our Development Initiatives",
@@ -39,7 +45,6 @@ export const HERO_CONFIGS = {
     description: "The Ministry of Niger Delta Affairs and Intelligence provides comprehensive services including community development, environmental protection, security coordination, and stakeholder engagement in oil-producing communities.",
     height: 'medium' as const,
     alignment: 'left' as const,
-    overlay: false
   },
   
   NEWS: {

@@ -20,7 +20,7 @@ const HeroSection = ({
   title,
   subtitle,
   description,
-  backgroundImage = '/hero_section.png',
+  backgroundImage = '/photos/Banner - Niger Delta Affairs and Intelligence.jpg',
   backgroundGradient,
   height = 'medium',
   alignment = 'left',
@@ -79,7 +79,7 @@ const HeroSection = ({
 
       {/* Overlay */}
       {overlay && (
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/0"></div>
       )}
 
       {/* Content */}

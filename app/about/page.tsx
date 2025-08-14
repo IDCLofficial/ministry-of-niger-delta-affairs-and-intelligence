@@ -21,7 +21,7 @@ export default function About() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
                         <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/Photo - Niger Delta Affairs and Intelligence.jpg"
                                 alt="Ministry of Niger Delta Affairs and Intelligence – Overview"
                                 width={600}
                                 height={400}
@@ -150,13 +150,13 @@ export default function About() {
                                 Hailing from Oguta LGA, he is respected for diplomatic leadership and conflict resolution, especially in addressing oil spill remediation, community agitation, and resource management. His vision is to strengthen partnerships with communities, security agencies, and development partners for inclusive governance and peace in oil‑producing regions.
                             </p>
                         </div>
-                        <div className="order-1 lg:order-2">
+                        <div className="order-1 lg:order-2 aspect-[3/4]">
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence.jpg"
                                 alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
                                 width={500}
                                 height={600}
-                                className="rounded-lg shadow-lg w-full h-auto"
+                                className="rounded-lg shadow-lg w-full h-auto object-cover object-top"
                             />
                         </div>
                     </div>
@@ -294,13 +294,13 @@ export default function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
                         {/* Commissioner */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
-                            <div className="h-64 bg-gray-100 overflow-hidden">
+                            <div className="aspect-[3.8/4] bg-gray-100 overflow-hidden">
                                 <Image
-                                    src="/assets/no-image.png"
+                                    src="/photos/Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence.jpg"
                                     alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
                                     width={400}
                                     height={400}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover object-top"
                                 />
                             </div>
                             <div className="p-6">
@@ -311,13 +311,13 @@ export default function About() {
 
                         {/* Permanent Secretary */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
-                            <div className="h-64 bg-gray-100 overflow-hidden">
+                            <div className="aspect-[3.8/4] bg-gray-100 overflow-hidden">
                                 <Image
-                                    src="/assets/no-image.png"
+                                    src="/photos/Chinyere J.Ibe Esq Permanent Secretary (CD) Ministry of Niger Delta Affairs & Intelligence.jpeg"
                                     alt="Barr. Ibe Elieazah – Permanent Secretary"
                                     width={400}
                                     height={400}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover object-top"
                                 />
                             </div>
                             <div className="p-6">
@@ -343,7 +343,7 @@ export default function About() {
                         </div>
                         <div>
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/Structure - Niger Delta Affairs and Intelligence.jpg"
                                 alt="Ministry of Niger Delta Affairs and Intelligence - Organizational Structure"
                                 width={600}
                                 height={400}
