@@ -203,7 +203,7 @@ export default function Home() {
               Collaborating with agencies, operators, security institutions, and civil society to advance development, peace, and environmental restoration in oil‑producing communities
             </p>
           </AnimatedEntrance>
-          <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8">
             {[{ name: 'NDDC', logo: '/photos/nddc-logo.png' },
               { name: 'ISOPADEC', logo: '/photos/isopadec-logo.png' },
               { name: 'NOSDRA', logo: '/photos/nosdra-logo.png' },
@@ -217,7 +217,7 @@ export default function Home() {
                 className="flex items-center justify-center"
               >
                 <div className="text-center hover:transform hover:scale-110 transition-all duration-300 cursor-pointer">
-                  <div className="bg-white p-2 rounded-lg shadow-sm">
+                  <div className="bg-white p-2 rounded-lg shadow-sm w-24 sm:w-32 md:w-40">
                     <CustomImage
                       src={partner.logo}
                       alt={`Partner ${partner.name}`}
