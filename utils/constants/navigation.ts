@@ -44,7 +44,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const CONTACT_INFO = {
   address: "Ministry of Niger Delta Affairs and Intelligence, Imo State Government Secretariat, New Owerri, Imo State, Nigeria.",
-  email: "commissioner.ind.solid.min@gmail.com",
+  email: "info@nigerdeltaaffairs.im.gov",
   phone: "+234 803 123 4567",
   hours: "Monday to Friday, 8:00 AM – 4:00 PM"
 };
